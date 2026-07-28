@@ -1,0 +1,44 @@
+{
+  "name": "prediction-market-router",
+  "version": "1.0.0",
+  "description": "Routes real-time X/Twitter events from the 1322 API into a keyword-matched outbound webhook, for prediction-market-style resolution signal use cases.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "prediction-market-router": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "author": "SisoSol",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SisoSol/prediction-market-router.git"
+  },
+  "keywords": [
+    "1322",
+    "twitter",
+    "x-api",
+    "websocket",
+    "prediction-markets",
+    "webhook",
+    "real-time"
+  ],
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/ws": "^8.5.10",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
+}

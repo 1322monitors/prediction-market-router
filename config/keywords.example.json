@@ -1,0 +1,13 @@
+{
+  "//": "Copy this file to config/keywords.json and edit the list below. Each entry is matched as a literal, case-insensitive substring against tweet text (unless case_sensitive is true). Keep phrases specific enough to avoid noisy false positives.",
+  "keywords": [
+    "official statement",
+    "confirmed",
+    "has been cancelled",
+    "will resolve yes",
+    "will resolve no",
+    "final result",
+    "postponed until"
+  ],
+  "case_sensitive": false
+}
