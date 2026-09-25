@@ -17,10 +17,10 @@
     "node": ">=18.0.0"
   },
   "license": "MIT",
-  "author": "SisoSol",
+  "author": "1322",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SisoSol/prediction-market-router.git"
+    "url": "https://github.com/1322monitors/prediction-market-router.git"
   },
   "keywords": [
     "1322",

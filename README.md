@@ -1,6 +1,6 @@
 # prediction-market-router
 
-[![License: MIT](https://img.shields.io/github/license/SisoSol/prediction-market-router?style=flat-square&color=blue)](LICENSE) [![Last commit](https://img.shields.io/github/last-commit/SisoSol/prediction-market-router?style=flat-square)](https://github.com/SisoSol/prediction-market-router/commits) [![Built for 1322.io](https://img.shields.io/badge/built%20for-1322.io-3b82f6?style=flat-square)](https://1322.io) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/SisoSol/prediction-market-router/pulls)
+[![License: MIT](https://img.shields.io/github/license/1322monitors/prediction-market-router?style=flat-square&color=blue)](LICENSE) [![Last commit](https://img.shields.io/github/last-commit/1322monitors/prediction-market-router?style=flat-square)](https://github.com/1322monitors/prediction-market-router/commits) [![Built for 1322.io](https://img.shields.io/badge/built%20for-1322.io-3b82f6?style=flat-square)](https://1322.io) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/1322monitors/prediction-market-router/pulls)
 
 A working example that turns a real-time Twitter/X feed into prediction-market signals: it holds a 1322 WebSocket, matches every incoming tweet from your tracked accounts against a keyword or phrase list, dedupes by tweet id, and POSTs a normalized JSON event to any webhook you configure (a queue, a serverless function, n8n/Zapier, or your own resolution pipeline). Maintained by the 1322 team. It is a generic signal router, not an integration with any specific prediction-market platform.
 
@@ -43,7 +43,7 @@ structure, not a measured example):
 ## Setup
 
 ```bash
-git clone https://github.com/SisoSol/prediction-market-router.git
+git clone https://github.com/1322monitors/prediction-market-router.git
 cd prediction-market-router
 npm install
 cp .env.example .env
@@ -131,18 +131,18 @@ https://1322.io/docs
 
 ## Related
 
-- [truthsocial-stream](https://github.com/SisoSol/truthsocial-stream) - Truth Social posts move the same markets
-- [social-trading-signals](https://github.com/SisoSol/social-trading-signals) - strategy harness for social events
-- [1322-client](https://github.com/SisoSol/1322-client) - typed client instead of raw WebSocket code
+- [truthsocial-stream](https://github.com/1322monitors/truthsocial-stream) - Truth Social posts move the same markets
+- [social-trading-signals](https://github.com/1322monitors/social-trading-signals) - strategy harness for social events
+- [1322-client](https://github.com/1322monitors/1322-client) - typed client instead of raw WebSocket code
 
 Other real-time monitoring examples from the 1322 team:
 
-- [kol-tweet-alert-bot](https://github.com/SisoSol/kol-tweet-alert-bot)
-- [twitter-websocket-client](https://github.com/SisoSol/twitter-websocket-client)
-- [instagram-realtime](https://github.com/SisoSol/instagram-realtime)
-- [binance-square-realtime](https://github.com/SisoSol/binance-square-realtime)
-- [social-trading-signals](https://github.com/SisoSol/social-trading-signals)
-- [social-monitor-examples](https://github.com/SisoSol/social-monitor-examples) (all platforms)
-- [awesome-realtime-social-monitoring](https://github.com/SisoSol/awesome-realtime-social-monitoring)
+- [kol-tweet-alert-bot](https://github.com/1322monitors/kol-tweet-alert-bot)
+- [twitter-websocket-client](https://github.com/1322monitors/twitter-websocket-client)
+- [instagram-realtime](https://github.com/1322monitors/instagram-realtime)
+- [binance-square-realtime](https://github.com/1322monitors/binance-square-realtime)
+- [social-trading-signals](https://github.com/1322monitors/social-trading-signals)
+- [social-monitor-examples](https://github.com/1322monitors/social-monitor-examples) (all platforms)
+- [awesome-realtime-social-monitoring](https://github.com/1322monitors/awesome-realtime-social-monitoring)
 
 MIT licensed.
