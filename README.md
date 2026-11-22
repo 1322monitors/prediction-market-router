@@ -63,12 +63,14 @@ Edit `.env`:
 | `DEDUP_TTL_MS` | no | How long a tweet id is remembered, default `600000` (10 min). |
 | `DEDUP_MAX_ENTRIES` | no | Max tweet ids kept in the dedup cache, default `5000`. |
 
-Get an API key and manage tracked accounts from the dashboard:
-https://1322.io/pricing. The WebSocket only delivers events for accounts
-already tracked on the key you connect with - set `TRACK_ACCOUNTS` to have
-this tool add them for you on startup, or add them yourself via the
-dashboard or the `POST /v1/tracked` endpoint documented at
-https://1322.io/docs.
+Copy your API key from the API access page in your dashboard. X Starter is
+$250/month for 100 accounts, WebSocket included (all plans:
+https://1322.io/pricing). A one-day evaluation is available on request,
+reviewed by the team, no card: https://1322.io/trial. The WebSocket only
+delivers events for accounts already tracked on the key you connect with -
+set `TRACK_ACCOUNTS` to have this tool add them for you on startup, or add
+them yourself via the dashboard or the `POST /v1/tracked` endpoint
+documented in the X quick start: https://1322.io/docs/x.
 
 Edit `config/keywords.json`:
 
@@ -124,10 +126,13 @@ node dist/index.js --help
 ## Full API reference
 
 This example only touches the X/Twitter WebSocket and the tracked-accounts
-management endpoint. The 1322 API also covers Instagram, Truth Social,
-YouTube, Binance Square, and news monitoring, plus the full X event/type
-reference (profile events, media, cards, polls, articles, subtweet chains):
-https://1322.io/docs
+management endpoint. The X quick start is at https://1322.io/docs/x, and the
+full X event/type reference (profile events, media, cards, articles, reply
+and quote chains) is at https://1322.io/docs.
+
+1322 covers eight sources: X (Twitter), Truth Social, Instagram, YouTube,
+TikTok, Binance Square, FOMO and News. Each source has its own WebSocket
+feed and key, managed in one dashboard.
 
 ## Related
 

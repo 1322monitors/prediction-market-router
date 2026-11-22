@@ -1,8 +1,9 @@
 /**
  * Minimal subset of the 1322 X/Twitter WebSocket event schema that this
  * example actually reads. The full schema (author profile, media, cards,
- * polls, articles, subtweet chains, etc.) is documented at
- * https://1322.io/docs under "X / Twitter" -> "WS Data Types & Events".
+ * articles, subtweet chains, etc.) is documented at
+ * https://1322.io/docs under "X / Twitter" -> "WS Data Types & Events";
+ * the X quick start is https://1322.io/docs/x.
  */
 
 /** Base envelope present on every event the 1322 WebSocket sends. */
